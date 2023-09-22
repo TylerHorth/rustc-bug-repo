@@ -1,0 +1,10 @@
+[package]
+name = "rustc-bug-repo"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tower = { version = "0.4", features = ["util"] }
+hyper = { version = "0.14", features = ["tcp", "client", "http1"] }
